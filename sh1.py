@@ -7,13 +7,13 @@ import yaml
 # Obtener datos del usuario o empleado
 def obtener_datos_persona():
     nombre = input("Ingresa tu nombre: ")
-    N_empleado = input("Ingrese su Numero de Empleado: ")
+    N_empleado = input("Ingresa tu Numero de Empleado: ")
     carrera = input("Ingresa su Especialidad o Carrera: ")
     return {
         "nombre": nombre,
         # Convertimos el dato a entero
-        "N_empleado": int(N_empleado),  
-        "carrera": carrera
+        "N_empleado": int(Numero del_empleado),  
+        "carrera": nombre de la carrera
     }
 
 #Convertimos los datos del usuario
