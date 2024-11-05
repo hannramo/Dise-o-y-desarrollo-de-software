@@ -44,3 +44,18 @@ print(" ")
 print("\nFormato XML:\n", xml_output)
 print(" ")
 print("\nFormato YAML:\n", yaml_output)
+
+
+# Guardar en archivo JSON
+with open("datos.json", "w") as json_file:
+    json_file.write(json_output)
+
+# Guardar en archivo XML
+with open("datos.xml", "w") as xml_file:
+    xml_file.write(xml_output)
+
+# Guardar en archivo YAML
+with open("datos.yaml", "w") as yaml_file:
+    yaml_file.write(yaml_output)
+
+print("\nLos archivos datos.json, datos.xml y datos.yaml se han creado correctamente.")
